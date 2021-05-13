@@ -13,15 +13,15 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="bg">Hello
+    <div className="text-gray-900 leading-tight">Hello
       {/* <Navbar />
       <Home />
       <Programme />
       <Topics />
       <Speakers />
-      <Registrations />
+      <Registrations /> */}
       <College />
-      <University />
+      {/* <University />
       <Coordinators />
       <Footer /> */}
     </div>

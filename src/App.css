@@ -7,4 +7,5 @@ html {
 body {
   margin: 0;
   /* Margin 0 is important otherwise the elements start behaving by adding margin */
+  background-color: #EAE7DC;
 }

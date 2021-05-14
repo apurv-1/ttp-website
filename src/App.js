@@ -13,17 +13,17 @@ import "./App.css";
 
 function App() {
   return (
-    <div>Hello
-      {/* <Navbar />
+    <div>
+      <Navbar />
       <Home />
       <Programme />
       <Topics />
       <Speakers />
-      <Registrations /> */}
+      <Registrations />
       <College />
-      {/* <University />
+      <University />
       <Coordinators />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 }

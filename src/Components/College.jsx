@@ -1,5 +1,5 @@
-import React from "react";
-import classes from "../Styles/college.module.css";
+import React from 'react';
+import classes from '../Styles/college.module.css';
 
 const College = () => {
   return (

@@ -17,14 +17,14 @@ const Home = () => {
           <Col>
             <img className={classes.logo__aicte} src={aicte} alt="aicte" />
           </Col>
-          <Col xs={6} >
-            <h1 className={classes.main__heading}>
+          <Col xs={8} >
+            <h3 className={classes.main__heading}>
               AICTE-CSVTU MoU Teachers Training Programme-2021
-            </h1>
-            <h3 className={classes.main__university}>
-              Chhattisgarh Swami Vivekanand Technical University, Bhilai
             </h3>
-            <h4>(State Government Owned Organization)</h4>
+            <h4 className={classes.main__university}>
+              Chhattisgarh Swami Vivekanand Technical University, Bhilai
+            </h4>
+            <h5>(State Government Owned Organization)</h5>
             <hr />
           </Col>
           <Col>

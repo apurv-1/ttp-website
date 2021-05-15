@@ -1,5 +1,5 @@
-import React from 'react';
-import classes from '../Styles/coordinators.module.css';
+import React from "react";
+// import classes from "../Styles/coordinators.module.css";
 
 const Coordinators = () => {
   return (

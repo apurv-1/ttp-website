@@ -1,14 +1,14 @@
 import React from "react";
 import classes from "../Styles/speakers.module.css";
 
+import speakerInfo from "../Information/Speakers.json";
 //swipper
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/swiper-bundle.css";
 import SwiperCore, { EffectCoverflow, Autoplay, Pagination } from "swiper";
-SwiperCore.use([EffectCoverflow, Pagination, Autoplay]);
 
-// SwiperCore.use([Navigation, Pagination, Controller, Thumbs]);
+SwiperCore.use([EffectCoverflow, Pagination, Autoplay]);
 
 const Speakers = () => {
   return (
@@ -25,40 +25,31 @@ const Speakers = () => {
           modifier: 1,
           slideShadows: true,
         }}
-        pagination={true}
         loop={true}
         autoplay={{
           delay: 2000,
           disableOnInteraction: false,
         }}
         className="mySwiper">
-        <SwiperSlide className={classes.swiper_slide}>
-          <img alt="img" src="https://swiperjs.com/demos/images/nature-1.jpg" />
-        </SwiperSlide>
-        <SwiperSlide className={classes.swiper_slide}>
-          <img alt="img" src="https://swiperjs.com/demos/images/nature-2.jpg" />
-        </SwiperSlide>
-        <SwiperSlide className={classes.swiper_slide}>
-          <img alt="img" src="https://swiperjs.com/demos/images/nature-3.jpg" />
-        </SwiperSlide>
-        <SwiperSlide className={classes.swiper_slide}>
-          <img alt="img" src="https://swiperjs.com/demos/images/nature-4.jpg" />
-        </SwiperSlide>
-        <SwiperSlide className={classes.swiper_slide}>
-          <img alt="img" src="https://swiperjs.com/demos/images/nature-5.jpg" />
-        </SwiperSlide>
-        <SwiperSlide className={classes.swiper_slide}>
-          <img alt="img" src="https://swiperjs.com/demos/images/nature-6.jpg" />
-        </SwiperSlide>
-        <SwiperSlide className={classes.swiper_slide}>
-          <img alt="img" src="https://swiperjs.com/demos/images/nature-7.jpg" />
-        </SwiperSlide>
-        <SwiperSlide className={classes.swiper_slide}>
-          <img alt="img" src="https://swiperjs.com/demos/images/nature-8.jpg" />
-        </SwiperSlide>
-        <SwiperSlide className={classes.swiper_slide}>
-          <img alt="img" src="https://swiperjs.com/demos/images/nature-9.jpg" />
-        </SwiperSlide>
+        {speakerInfo.map(({ name, designation, institute_name, profile }, index) => (
+          <SwiperSlide key={index} className={classes.swiper_slide}>
+            <div className={classes.info_card}>
+              <div className="sliderText">
+                <img alt="img" src={profile} />
+              </div>
+              <div className={classes.textarea}>
+                <h4 className={classes.text}>{name}</h4>
+                <h5 className={classes.text}>{designation}</h5>
+                {/* <a href="" class="btn">
+                  Source
+                </a>
+                <a href="" class="btn">
+                  View
+                </a> */}
+              </div>
+            </div>
+          </SwiperSlide>
+        ))}
       </Swiper>
     </div>
   );

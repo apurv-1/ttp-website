@@ -1,21 +1,26 @@
-.root {
-  margin-top: 10px;
-  padding-top: 20px;
-  /* width: 100vw; */
-  display: grid;
-  place-items: center;
+.main-div {
+  min-height: 600px;
+  padding-top: 50px;
+  height: max-content;
 }
-.heading {
-  display: flex;
-  flex-direction: row;
+
+.uni-div {
+  color: brown;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
 }
-.logo {
-  /* flex: 0.1; */
-  height: 10rem;
-  /* padding: 5px; */
+
+.clg-div {
+  color: red;
+  font-family: 'Courier New', Courier, monospace;
 }
-.logo__aicte {
-  /* flex: 0.1; */
-  height: 10rem;
-  padding: 10px;
+
+@media only screen and (max-width: 600px) {
+  img {
+    height: 60px;
+    width: 60px;
+  }
+  .main-div {
+    height: min-content;
+  }
 }

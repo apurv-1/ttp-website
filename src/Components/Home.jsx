@@ -1,37 +1,45 @@
-import React from "react";
+import React from 'react';
 //css
-import classes from "../Styles/home.module.css";
+import classes from '../Styles/home.module.css';
 //logos
-import aicte from "../assets/aicte-logo.png";
-import csvtu from "../assets/csvtu-logo.png";
+import aicte from '../assets/aicte-logo.png';
+import csvtu from '../assets/csvtu-logo.png';
 //bootstrap
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 const Home = () => {
   return (
-    <div className={classes.root}>
-      <Container>
-        <Row className={classes.heading} >
-          <Col>
-            <img className={classes.logo__aicte} src={aicte} alt="aicte" />
-          </Col>
-          <Col xs={8} >
-            <h3 className={classes.main__heading}>
-              AICTE-CSVTU MoU Teachers Training Programme-2021
-            </h3>
-            <h4 className={classes.main__university}>
-              Chhattisgarh Swami Vivekanand Technical University, Bhilai
-            </h4>
-            <h5>(State Government Owned Organization)</h5>
-            <hr />
-          </Col>
-          <Col>
-            <img className={classes.logo} src={csvtu} alt="aicte" />
-          </Col>
-        </Row>
-      </Container>
+    <div className="container text-center main-div pt-5 pb-5">
+      <a href="https://www.aicte-india.org/" target="_blank">
+        <img
+          style={{ float: 'left' }}
+          width="150"
+          height="150"
+          className="d-inline-block"
+          src={aicte}
+          alt="logo"
+        />
+      </a>
+      <a href="https://csvtu.ac.in/" target="_blank">
+        <img
+          style={{ float: 'right' }}
+          width="150"
+          height="150"
+          className="d-inline-block"
+          src={csvtu}
+          alt="logo"
+        />
+      </a>
+
+      <h3 className="clg-div" id="tct">
+        AICTE-CSVTU MoU Teachers Training Programme-2021
+      </h3>
+      <div className="uni-dev">
+        Chhattisgarh Swami Vivekanand Technical University, Bhilai{' '}
+      </div>
+      <h4 style={{ color: 'black' }}>(State Government Owned Organization)</h4>
     </div>
   );
 };

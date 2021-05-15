@@ -17,13 +17,13 @@ function App() {
     <div>
       <Navigationbar />
       <Home />
-      {/* <Programme />
+      <Programme />
       <Topics />
-      <Speakers />
+      {/* <Speakers />
       <Registrations />
-      <College />
+      <College /> */}
       <University />
-      <Coordinators />
+      {/* <Coordinators />
       <Footer /> */}
     </div>
   );

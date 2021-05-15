@@ -1,3 +1,4 @@
+
 html {
   font-size: 100%;
   margin: 0%;
@@ -7,5 +8,10 @@ html {
 body {
   margin: 0;
   /* Margin 0 is important otherwise the elements start behaving by adding margin */
-  background-color: #EAE7DC;
+  background-color: #EAE7DC ;
+  font-family: 'Crete Round', serif;
 }
+
+/* h1,h2,h3,h4{
+  font-family: 'Kanit', sans-serif !important;
+} */

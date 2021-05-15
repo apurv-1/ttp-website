@@ -2,6 +2,7 @@ import React from "react";
 // import '../Styles/navbar.module.css';
 import logo from "../assets/ssipmt-min.png";
 import { Navbar, Nav } from "react-bootstrap";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Navigationbar = () => {
   return (

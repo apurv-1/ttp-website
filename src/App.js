@@ -19,12 +19,12 @@ function App() {
       <Home />
       <Programme />
       <Topics />
-      {/* <Speakers />
+      <Speakers />
       <Registrations />
-      <College /> */}
+      <College />
       <University />
-      {/* <Coordinators />
-      <Footer /> */}
+      <Coordinators />
+      <Footer />
     </div>
   );
 }

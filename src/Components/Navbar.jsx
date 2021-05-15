@@ -1,18 +1,12 @@
-import React from 'react';
+import React from "react";
 // import '../Styles/navbar.module.css';
-import logo from '../assets/ssipmt-min.png';
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import logo from "../assets/ssipmt-min.png";
+import { Navbar, Nav } from "react-bootstrap";
 
 const Navigationbar = () => {
   return (
     <>
-      <Navbar
-        collapseOnSelect
-        expand="lg"
-        bg="dark"
-        variant="dark"
-        sticky="top"
-      >
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
         <Navbar.Brand href="#home">
           <img
             src={logo}

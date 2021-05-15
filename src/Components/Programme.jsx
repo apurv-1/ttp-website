@@ -19,9 +19,9 @@ const Programme = () => {
           Date: 26th July(MON) - 30st July(FRI) 2021
         </h4>
 
-        <a href="https://www.ssipmt.com/" target="_blank">
+        <a href="https://www.ssipmt.com/" rel="noreferrer" target="_blank">
           <img
-            class=" wow fadeInDown mcq"
+            className=" wow fadeInDown mcq"
             wow-data-delay="0.0s"
             wow-data-duration="0.9s"
             width="40%"

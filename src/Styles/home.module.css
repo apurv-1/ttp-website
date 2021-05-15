@@ -1,7 +1,7 @@
 .root {
   margin-top: 10px;
   padding-top: 20px;
-  width: 100vw;
+  /* width: 100vw; */
   display: grid;
   place-items: center;
 }
@@ -10,12 +10,12 @@
   flex-direction: row;
 }
 .logo {
-  flex: 0.1;
+  /* flex: 0.1; */
   height: 10rem;
-  padding: 5px;
+  /* padding: 5px; */
 }
 .logo__aicte {
-  flex: 0.1;
-  height: 8rem;
-  padding: 20px;
+  /* flex: 0.1; */
+  height: 10rem;
+  padding: 10px;
 }

@@ -17,6 +17,7 @@ const Home = () => {
           style={{ float: "left" }}
           width="150"
           height="150"
+          loading="lazy"
           className="d-inline-block"
           src={aicte}
           alt="logo"
@@ -27,6 +28,7 @@ const Home = () => {
           style={{ float: "right" }}
           width="150"
           height="150"
+          loading="lazy"
           className="d-inline-block"
           src={csvtu}
           alt="logo"
@@ -38,6 +40,7 @@ const Home = () => {
       </h3>
       <div className="uni-dev">Chhattisgarh Swami Vivekanand Technical University, Bhilai </div>
       <h4 style={{ color: "black" }}>(State Government Owned Organization)</h4>
+      <hr />
     </div>
   );
 };

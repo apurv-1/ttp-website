@@ -8,8 +8,8 @@ html {
 body {
   margin: 0;
   /* Margin 0 is important otherwise the elements start behaving by adding margin */
-  background-color: #EAE7DC ;
-  font-family: 'Crete Round', serif;
+  background-color: #EAE7DC !important;
+  font-family: 'Crete Round', serif !important;
 }
 
 /* h1,h2,h3,h4{

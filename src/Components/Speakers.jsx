@@ -40,6 +40,7 @@ const Speakers = () => {
               <div className={classes.textarea}>
                 <h4 className={classes.text}>{name}</h4>
                 <h5 className={classes.text}>{designation}</h5>
+                <h6 className={classes.text}>{institute_name}</h6>
                 {/* <a href="" class="btn">
                   Source
                 </a>

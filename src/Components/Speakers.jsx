@@ -35,7 +35,7 @@ const Speakers = () => {
           <SwiperSlide key={index} className={classes.swiper_slide}>
             <div className={classes.info_card}>
               <div className="sliderText">
-                <img alt="img" src={profile} />
+                <img alt="img" src={profile} height="320px"/>
               </div>
               <div className={classes.textarea}>
                 <h4 className={classes.text}>{name}</h4>

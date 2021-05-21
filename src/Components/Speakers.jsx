@@ -34,19 +34,13 @@ const Speakers = () => {
         {speakerInfo.map(({ name, designation, institute_name, profile }, index) => (
           <SwiperSlide key={index} className={classes.swiper_slide}>
             <div className={classes.info_card}>
-              <div className="sliderText">
-                <img alt="img" src={profile} height="320px"/>
+              <div className={classes.divImage}>
+                <img alt="img" src={profile} className={classes.profile_image} />
               </div>
               <div className={classes.textarea}>
                 <h4 className={classes.text}>{name}</h4>
                 <h5 className={classes.text}>{designation}</h5>
                 <h6 className={classes.text}>{institute_name}</h6>
-                {/* <a href="" class="btn">
-                  Source
-                </a>
-                <a href="" class="btn">
-                  View
-                </a> */}
               </div>
             </div>
           </SwiperSlide>

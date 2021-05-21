@@ -53,13 +53,13 @@ function App() {
           </>
         }>
         <Navigationbar />
-        <Fade delay={500} >
+        <Fade delay={400} >
           <Home />
         </Fade>
-        <Fade delay={1000}>
+        <Fade delay={500}>
           <Programme />
         </Fade>
-        <Fade delay={1000}>
+        <Fade delay={600}>
           <Topics />
         </Fade>
         <Fade>

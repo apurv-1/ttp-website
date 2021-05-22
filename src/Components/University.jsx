@@ -21,9 +21,9 @@ const University = () => {
           The Host institue(SSIPMT, Raipur)
         </h3>
         <p className="word-align">
-          Shri Shankaracharya Institute of Professional Management & Technology,
-          Raipur affiliated to Chhattisgarh Swami Vivekanand Technical
-          University Bhilai fosters an understanding of technical and management
+          <b>Shri Shankaracharya Institute of Professional Management & Technology,
+          Raipur</b> affiliated to <b>Chhattisgarh Swami Vivekanand Technical
+          University, Bhilai</b> fosters an understanding of technical and management
           education to harvest skilled engineers and efficient managers for the
           society. The global competitive market requires innovation,
           transformation and application of bold methodologies, knowledge and
@@ -36,8 +36,8 @@ const University = () => {
           succeed. SSIPMT campus has a conducive and supportive academic
           ambience facilitating high quality education and research for more
           than 2000 students of bachelors, masters and doctoral programs. Two of
-          its undergraduate programs have been Accredited by NBA and the
-          institute itself has been “B++” grade Accreditation by NAAC.
+          its undergraduate programs have been <b>Accredited by NBA</b> and the
+          institute itself has been <b>“B++” grade Accreditation by NAAC</b>.
         </p>
         <div className="text-center pt-3 pb-3">
           <img

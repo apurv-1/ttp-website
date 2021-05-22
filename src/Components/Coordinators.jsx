@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 // import classes from "../Styles/coordinators.module.css";
 
 const Coordinators = () => {
@@ -21,7 +21,7 @@ const Coordinators = () => {
         </div>
         <div className="col-md-6 col-sm-12">
           <div className="text-center pb-3">
-            <h3 className="text-primary pb-3">Program Co-ordinator</h3>
+            <h3 className="text-primary pb-3">Program Co-Coordinator</h3>
             <h4>Mr. Anand Tamrakar, Department of CSE, SSIPMT, Raipur</h4>
             <h4>Mobile No: 9993090232 (Whatsapp)</h4>
             <h4>Email: a.tamrakar@ssipmt.com</h4>

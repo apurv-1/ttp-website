@@ -19,8 +19,9 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
-      - run: |
-          npm install
+      - run: npm install
+      - name: Git config
+        run: |
           git config --global user.email ${{ secrets.EMAIL }}
           git config --global user.password ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       - name: Deploy

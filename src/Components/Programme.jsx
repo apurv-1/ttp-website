@@ -36,7 +36,7 @@ const Programme = () => {
         <h1 className="text-center text-primary pt-5 pb-4">Programme</h1>
         <div>
           <h3 className="text-danger pb-3">Objective</h3>
-          <p>
+          <p className="word-align">
             The objective of the proposed FDP is to Familiarize the faculties
             with the concept of outcome-based education with more focus on
             adaption and implementation. To bring out the advantage of OBE over

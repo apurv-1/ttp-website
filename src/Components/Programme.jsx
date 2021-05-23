@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from '../Styles/programme.module.css';
-import logo from '../assets/ssipmt-logo.png';
+import logo from '../assets/ssipmt-logo-full.png';
 
 const Programme = () => {
   return (

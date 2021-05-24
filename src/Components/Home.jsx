@@ -26,7 +26,7 @@ const Home = () => {
       <a href="https://csvtu.ac.in/" rel="noreferrer" target="_blank">
         <img
           style={{ float: "right" }}
-          width="150"
+          width="160"
           height="150"
           loading="lazy"
           className="d-inline-block"

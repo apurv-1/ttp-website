@@ -21,11 +21,7 @@ const Programme = () => {
 
         <a href="https://www.ssipmt.com/" rel="noreferrer" target="_blank">
           <img
-            className=" wow fadeInDown mcq"
-            wow-data-delay="0.0s"
-            wow-data-duration="0.9s"
-            width="40%"
-            height="20%"
+            className={classes.logo}
             src={logo}
             alt="logo"
           />

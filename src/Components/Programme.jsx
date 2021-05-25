@@ -1,4 +1,5 @@
 import React from 'react';
+import { Element } from 'react-scroll';
 import classes from '../Styles/programme.module.css';
 import logo from '../assets/ssipmt-logo-full.png';
 
@@ -20,16 +21,11 @@ const Programme = () => {
         </h4>
 
         <a href="https://www.ssipmt.com/" rel="noreferrer" target="_blank">
-          <img
-            className={classes.logo}
-            src={logo}
-            alt="logo"
-          />
+          <img className={classes.logo} src={logo} alt="logo" />
         </a>
       </div>
-
-      <div className="container">
-        <h1 className="text-center text-primary pt-5 pb-4">Programme</h1>
+      <div className="container pt-5" id="programme">
+        <h1 className="text-center text-primary pb-4">Programme</h1>
         <div>
           <h3 className="text-danger pb-3">Objective</h3>
           <p className="word-align">

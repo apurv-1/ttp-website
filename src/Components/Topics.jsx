@@ -3,7 +3,7 @@ import classes from '../Styles/topics.module.css';
 
 const Topics = () => {
   return (
-    <div className={classes.root}>
+    <div className={classes.root} id="Topics">
       <div className="container pt-5">
         <h1 className="text-center text-primary pb-3">Topics</h1>
         <h3 className="text-danger pb-2">Topics to be Covered</h3>

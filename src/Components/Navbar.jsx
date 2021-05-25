@@ -1,10 +1,19 @@
 import React from 'react';
-// import '../Styles/navbar.module.css';
+import ScrollToElement from 'scroll-to-element';
 import logo from '../assets/ssipmt-min.png';
 import { Navbar, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Navigationbar = () => {
+  const scroll = (id) => {
+    const elem = document.querySelector(`#${id}`);
+    ScrollToElement(elem, {
+      offset: 0,
+      ease: 'inQuart',
+      duration: 500,
+    });
+  };
+
   return (
     <>
       <Navbar
@@ -26,14 +35,79 @@ const Navigationbar = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="m-auto">
-            <Nav.Link>Home</Nav.Link>
-            <Nav.Link>Programme</Nav.Link>
-            <Nav.Link>Topics</Nav.Link>
-            <Nav.Link>Speakers</Nav.Link>
-            <Nav.Link>Registration</Nav.Link>
-            <Nav.Link>SSIPMT RAIPUR</Nav.Link>
-            <Nav.Link>CSVTU</Nav.Link>
-            <Nav.Link>Coordinators</Nav.Link>
+            <Nav.Link>
+              <a
+                onClick={() => {
+                  scroll('Home');
+                }}
+              >
+                Home
+              </a>
+            </Nav.Link>
+
+            <Nav.Link>
+              <a
+                onClick={() => {
+                  scroll('programme');
+                }}
+              >
+                Programme
+              </a>
+            </Nav.Link>
+            <Nav.Link>
+              <a
+                onClick={() => {
+                  scroll('Topics');
+                }}
+              >
+                Topics
+              </a>
+            </Nav.Link>
+            <Nav.Link>
+              <a
+                onClick={() => {
+                  scroll('Speakers');
+                }}
+              >
+                Speakers
+              </a>
+            </Nav.Link>
+            <Nav.Link>
+              <a
+                onClick={() => {
+                  scroll('Registration');
+                }}
+              >
+                Registration
+              </a>
+            </Nav.Link>
+            <Nav.Link>
+              <a
+                onClick={() => {
+                  scroll('ssipmt_raipur');
+                }}
+              >
+                SSIPMT RAIPUR
+              </a>
+            </Nav.Link>
+            <Nav.Link>
+              <a
+                onClick={() => {
+                  scroll('CSVTU');
+                }}
+              >
+                CSVTU
+              </a>
+            </Nav.Link>
+            <Nav.Link>
+              <a
+                onClick={() => {
+                  scroll('Coordinators');
+                }}
+              >
+                Coordinators
+              </a>
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

@@ -5,7 +5,7 @@ import csvtu from '../assets/csvtu-logo.png';
 
 const University = () => {
   return (
-    <div className={classes.root}>
+    <div className={classes.root} id="ssipmt_raipur">
       <div className="container pt-5">
         <h1 className="text-center text-primary pb-4">About</h1>
         <div className="text-center pt-3 pb-3">
@@ -21,25 +21,29 @@ const University = () => {
           The Host institue(SSIPMT, Raipur)
         </h3>
         <p className="word-align">
-          <b>Shri Shankaracharya Institute of Professional Management & Technology,
-          Raipur</b> affiliated to <b>Chhattisgarh Swami Vivekanand Technical
-          University, Bhilai</b> fosters an understanding of technical and management
-          education to harvest skilled engineers and efficient managers for the
-          society. The global competitive market requires innovation,
-          transformation and application of bold methodologies, knowledge and
-          determination to challenge conventional practices. SSIPMT has worked
-          round the clock to achieve this aim in the newly- born state of
-          Chhattisgarh. At the same time, this institution draws its strength
-          from our Indian culture. We transform raw minds into professionals
-          through our focus on education, research and training practices to
-          support the students gain knowledge to renovate and the power to
-          succeed. SSIPMT campus has a conducive and supportive academic
-          ambience facilitating high quality education and research for more
-          than 2000 students of bachelors, masters and doctoral programs. Two of
-          its undergraduate programs have been <b>Accredited by NBA</b> and the
-          institute itself has been <b>“B++” grade Accreditation by NAAC</b>.
+          <b>
+            Shri Shankaracharya Institute of Professional Management &
+            Technology, Raipur
+          </b>{' '}
+          affiliated to{' '}
+          <b>Chhattisgarh Swami Vivekanand Technical University, Bhilai</b>{' '}
+          fosters an understanding of technical and management education to
+          harvest skilled engineers and efficient managers for the society. The
+          global competitive market requires innovation, transformation and
+          application of bold methodologies, knowledge and determination to
+          challenge conventional practices. SSIPMT has worked round the clock to
+          achieve this aim in the newly- born state of Chhattisgarh. At the same
+          time, this institution draws its strength from our Indian culture. We
+          transform raw minds into professionals through our focus on education,
+          research and training practices to support the students gain knowledge
+          to renovate and the power to succeed. SSIPMT campus has a conducive
+          and supportive academic ambience facilitating high quality education
+          and research for more than 2000 students of bachelors, masters and
+          doctoral programs. Two of its undergraduate programs have been{' '}
+          <b>Accredited by NBA</b> and the institute itself has been{' '}
+          <b>“B++” grade Accreditation by NAAC</b>.
         </p>
-        <div className="text-center pt-3 pb-3">
+        <div className="text-center pt-3 pb-3" id="CSVTU">
           <img
             width="150"
             height="150"

@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from '../Styles/programme.module.css';
 
-import logo from '../assets/ssipmt-full-logo.png';
+import logo from '../assets/ssipmt-full-logo1.png';
 
 
 const Programme = () => {

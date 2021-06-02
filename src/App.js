@@ -68,8 +68,8 @@ function App() {
           <Registrations />
           <College />
           <University />
-          <Faculty />
           <Coordinators />
+          <Faculty />
         </Fade>
         <Footer />
       </Suspense>

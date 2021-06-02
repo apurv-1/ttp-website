@@ -5,6 +5,7 @@ import details from '../Information/names.json';
 const Faculty = () => {
   return (
     <div className={classes.root}>
+      <h2 className="text-primary pb-3">Co-ordinating Committee (SSIPMT Raipur)</h2>
       <table>
         <thead>
           <tr>

@@ -14,7 +14,7 @@ const Programme = () => {
         <h3 style={{ color: 'red' }}>
           "The Importance of Outcome Based Education (OBE) in New Education Policy"
         </h3>
-        <h4 style={{ color: 'blue' }}>Date: 26th July(MON) - 30st July(FRI) 2021</h4>
+        <h4 style={{ color: 'blue' }}>Date: 26th July(MON) - 31st July(SAT) 2021</h4>
         <hr style={{ width: '80%' }} />
         <a href="https://www.ssipmt.com/" rel="noreferrer" target="_blank">
           <img className={classes.logo} src={logo} alt="logo" />

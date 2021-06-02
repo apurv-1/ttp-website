@@ -1,0 +1,50 @@
+.root {
+  margin: 0%;
+  padding: 0%;
+  display: grid;
+  place-items: center;
+}
+table {
+  width: 60%;
+  border-collapse: collapse;
+  margin: 50px auto;
+  border: 3px solid #343a40;
+}
+
+/* Zebra striping */
+tr:nth-of-type(odd) {
+  background: #eee;
+}
+
+th {
+  background: #343a40;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 1px solid #343a40;
+}
+
+td,
+th {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+  font-size: 18px;
+}
+.right {
+  text-align: center;
+}
+@media only screen and (max-width: 1024px) {
+  table {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  table {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 426px) {
+  table {
+    width: 90%;
+  }
+}

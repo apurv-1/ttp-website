@@ -1,5 +1,5 @@
 .root {
-  margin: 0%;
+  margin: 2%;
   padding: 0%;
   display: grid;
   place-items: center;
@@ -7,7 +7,7 @@
 table {
   width: 60%;
   border-collapse: collapse;
-  margin: 50px auto;
+  /* margin: 50px auto; */
   border: 3px solid #343a40;
 }
 

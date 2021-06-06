@@ -3,7 +3,7 @@ import React from 'react';
 
 const Coordinators = () => {
   return (
-    <div className="container pt-5">
+    <div className="container pt-5" id="Coordinators">
       <div className="text-center pb-3">
         <h3 className="text-primary pb-3">Host Institute Patrons</h3>
         <h4>Shri I.P. Mishra (Chairman, SGES)</h4>

@@ -8,7 +8,7 @@ const Navigationbar = () => {
   const scroll = (id) => {
     const elem = document.querySelector(`#${id}`);
     ScrollToElement(elem, {
-      offset: 0,
+      offset: -90,
       ease: 'inQuart',
       duration: 500,
     });

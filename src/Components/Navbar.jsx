@@ -8,7 +8,7 @@ const Navigationbar = () => {
   const scroll = (id) => {
     const elem = document.querySelector(`#${id}`);
     ScrollToElement(elem, {
-      offset: 0,
+      offset: -90,
       ease: 'inQuart',
       duration: 500,
     });
@@ -16,13 +16,7 @@ const Navigationbar = () => {
 
   return (
     <>
-      <Navbar
-        collapseOnSelect
-        expand="lg"
-        bg="dark"
-        variant="dark"
-        sticky="top"
-      >
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
         <Navbar.Brand href="#home">
           <img
             src={logo}
@@ -39,8 +33,7 @@ const Navigationbar = () => {
               <a
                 onClick={() => {
                   scroll('Home');
-                }}
-              >
+                }}>
                 Home
               </a>
             </Nav.Link>
@@ -49,8 +42,7 @@ const Navigationbar = () => {
               <a
                 onClick={() => {
                   scroll('programme');
-                }}
-              >
+                }}>
                 Programme
               </a>
             </Nav.Link>
@@ -58,8 +50,7 @@ const Navigationbar = () => {
               <a
                 onClick={() => {
                   scroll('Topics');
-                }}
-              >
+                }}>
                 Topics
               </a>
             </Nav.Link>
@@ -67,8 +58,7 @@ const Navigationbar = () => {
               <a
                 onClick={() => {
                   scroll('Speakers');
-                }}
-              >
+                }}>
                 Speakers
               </a>
             </Nav.Link>
@@ -76,8 +66,7 @@ const Navigationbar = () => {
               <a
                 onClick={() => {
                   scroll('Registration');
-                }}
-              >
+                }}>
                 Registration
               </a>
             </Nav.Link>
@@ -85,8 +74,7 @@ const Navigationbar = () => {
               <a
                 onClick={() => {
                   scroll('ssipmt_raipur');
-                }}
-              >
+                }}>
                 SSIPMT RAIPUR
               </a>
             </Nav.Link>
@@ -94,8 +82,7 @@ const Navigationbar = () => {
               <a
                 onClick={() => {
                   scroll('CSVTU');
-                }}
-              >
+                }}>
                 CSVTU
               </a>
             </Nav.Link>
@@ -103,8 +90,7 @@ const Navigationbar = () => {
               <a
                 onClick={() => {
                   scroll('Coordinators');
-                }}
-              >
+                }}>
                 Coordinators
               </a>
             </Nav.Link>

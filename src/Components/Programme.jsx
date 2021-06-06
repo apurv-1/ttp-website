@@ -1,5 +1,4 @@
 import React from 'react';
-import { Element } from 'react-scroll';
 import classes from '../Styles/programme.module.css';
 
 import logo from '../assets/ssipmt-full-logo1.png';

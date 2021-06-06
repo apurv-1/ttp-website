@@ -13,6 +13,7 @@ SwiperCore.use([EffectCoverflow, Pagination, Autoplay]);
 const Speakers = () => {
   return (
     <div className={classes.swiper_container} id="Speakers">
+      <h1 className="text-center text-primary pb-3">Speakers</h1>
       <Swiper
         effect={'coverflow'}
         grabCursor={true}
@@ -30,28 +31,21 @@ const Speakers = () => {
           delay: 2000,
           disableOnInteraction: false,
         }}
-        className="mySwiper"
-      >
-        {speakerInfo.map(
-          ({ name, designation, institute_name, profile }, index) => (
-            <SwiperSlide key={index} className={classes.swiper_slide}>
-              <div className={classes.info_card}>
-                <div className={classes.divImage}>
-                  <img
-                    alt="img"
-                    src={profile}
-                    className={classes.profile_image}
-                  />
-                </div>
-                <div className={classes.textarea}>
-                  <h4 className={classes.text}>{name}</h4>
-                  <h5 className={classes.text}>{designation}</h5>
-                  <h6 className={classes.text}>{institute_name}</h6>
-                </div>
+        className="mySwiper">
+        {speakerInfo.map(({ name, designation, institute_name, profile }, index) => (
+          <SwiperSlide key={index} className={classes.swiper_slide}>
+            <div className={classes.info_card}>
+              <div className={classes.divImage}>
+                <img alt="img" src={profile} className={classes.profile_image} />
               </div>
-            </SwiperSlide>
-          )
-        )}
+              <div className={classes.textarea}>
+                <h4 className={classes.text}>{name}</h4>
+                <h5 className={classes.text}>{designation}</h5>
+                <h6 className={classes.text}>{institute_name}</h6>
+              </div>
+            </div>
+          </SwiperSlide>
+        ))}
       </Swiper>
     </div>
   );

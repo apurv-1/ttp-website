@@ -1,6 +1,6 @@
 import React from 'react';
 import ScrollToElement from 'scroll-to-element';
-import logo from '../assets/ssipmt-min.png';
+import logo from '../assets/ssipmt-nav.png';
 import { Navbar, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 

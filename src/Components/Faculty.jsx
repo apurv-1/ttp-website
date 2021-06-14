@@ -10,12 +10,14 @@ const Faculty = () => {
         <thead>
           <tr>
             <th>Faculty Name</th>
+            <th>Faculty Name</th>
             <th className={classes.center}>Designation</th>
           </tr>
         </thead>
         <tbody>
           {details.map(({ name, designation }, index) => (
             <tr key={index}>
+              <td>{index +1}</td>
               <td>{name}</td>
               <td className={classes.center}>{designation}</td>
             </tr>

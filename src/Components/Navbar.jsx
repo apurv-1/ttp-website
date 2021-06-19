@@ -2,6 +2,7 @@ import React from 'react';
 import ScrollToElement from 'scroll-to-element';
 import logo from '../assets/ssipmt-nav.png';
 import { Navbar, Nav } from 'react-bootstrap';
+import classes from '../Styles/navbar.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Navigationbar = () => {
@@ -33,7 +34,9 @@ const Navigationbar = () => {
               <a
                 onClick={() => {
                   scroll('Home');
-                }}>
+                }}
+                className={classes.navlink}
+                href="#home">
                 Home
               </a>
             </Nav.Link>
@@ -42,7 +45,9 @@ const Navigationbar = () => {
               <a
                 onClick={() => {
                   scroll('programme');
-                }}>
+                }}
+                className={classes.navlink}
+                href="#programme">
                 Programme
               </a>
             </Nav.Link>
@@ -50,7 +55,9 @@ const Navigationbar = () => {
               <a
                 onClick={() => {
                   scroll('Topics');
-                }}>
+                }}
+                className={classes.navlink}
+                href="#topics">
                 Topics
               </a>
             </Nav.Link>
@@ -58,7 +65,9 @@ const Navigationbar = () => {
               <a
                 onClick={() => {
                   scroll('Speakers');
-                }}>
+                }}
+                className={classes.navlink}
+                href="#rpeakers">
                 Speakers
               </a>
             </Nav.Link>
@@ -66,7 +75,9 @@ const Navigationbar = () => {
               <a
                 onClick={() => {
                   scroll('Registration');
-                }}>
+                }}
+                className={classes.navlink}
+                href="#registration">
                 Registration
               </a>
             </Nav.Link>
@@ -74,7 +85,9 @@ const Navigationbar = () => {
               <a
                 onClick={() => {
                   scroll('ssipmt_raipur');
-                }}>
+                }}
+                className={classes.navlink}
+                href="#ssipmt_raipur">
                 SSIPMT RAIPUR
               </a>
             </Nav.Link>
@@ -82,7 +95,9 @@ const Navigationbar = () => {
               <a
                 onClick={() => {
                   scroll('CSVTU');
-                }}>
+                }}
+                className={classes.navlink}
+                href="#csvtu">
                 CSVTU
               </a>
             </Nav.Link>
@@ -90,7 +105,9 @@ const Navigationbar = () => {
               <a
                 onClick={() => {
                   scroll('Coordinators');
-                }}>
+                }}
+                className={classes.navlink}
+                href="#coordinators">
                 Coordinators
               </a>
             </Nav.Link>

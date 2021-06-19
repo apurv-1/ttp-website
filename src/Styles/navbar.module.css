@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Alegreya:wght@600&display=swap');
+
+a{
+  text-decoration: none;
+  
+}
+.navlink {
+  color: #EAE7DC;
+  font-family: 'Alegreya', serif !important;
+  font-size: larger;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  padding: 6px 0px;
+  margin: 0px 6px;
+  display: inline-block;
+  position: relative;
+  opacity: 0.75;
+}
+.navlink:hover {
+  opacity: 1;
+  color: #EAE7DC;
+}
+.navlink::before {
+  width: 100%;
+  /* bottom: 15px; */
+  top: 15px;
+  opacity: 0;
+  transition: 300ms;
+  height: 4px;
+  content: "";
+  position: absolute;
+  background-color: #EAE7DC;
+}
+.navlink:hover::before {
+  /* bottom: 40px; */
+  top: 40px;
+  opacity: 1;
+}

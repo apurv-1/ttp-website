@@ -9,7 +9,7 @@ const Faculty = () => {
       <table>
         <thead>
           <tr>
-            <th>Faculty Name</th>
+            <th>S. No.</th>
             <th>Faculty Name</th>
             <th className={classes.center}>Designation</th>
           </tr>

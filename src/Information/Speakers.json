@@ -87,14 +87,31 @@
     "name": "Dr. R. N. Patel",
     "designation": "Associate Professor",
     "institute_name": "NIT, Raipur",
-    "profile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa9UI1y4Shr253ibETjPCOWNBWWpKgQsVKaw&usqp=CAU"
+    "profile": "https://res.cloudinary.com/vlk/image/upload/v1625136952/ttp-website/1_jxvnve.jpg"
   },
   {
     "name": "Soumyajeet Mahapatra",
     "designation": "Lead Consultant",
     "institute_name": "Digital process Automation Infosys",
     "profile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa9UI1y4Shr253ibETjPCOWNBWWpKgQsVKaw&usqp=CAU"
+  },
+  {
+    "name": "Hon’ble VC – Prof. M. K. Verma",
+    "designation": "",
+    "institute_name": "CSVTU - Bhilai",
+    "profile": "https://res.cloudinary.com/vlk/image/upload/v1625136953/ttp-website/2_xdke2x.jpg"
+  },
+  {
+    "name": "Dr. K. K. Verma",
+    "designation": "Registrar",
+    "institute_name": "CSVTU - Bhilai",
+    "profile": "https://res.cloudinary.com/vlk/image/upload/v1625136955/ttp-website/3_ti7knp.jpg"
+  },
+  {
+    "name": "Dr. R. N. Khare",
+    "designation": "Principal",
+    "institute_name": "VEC Lakhanpur",
+    "profile": "https://res.cloudinary.com/vlk/image/upload/v1625136957/ttp-website/4_rqocxp.jpg"
   }
 
-  
 ]

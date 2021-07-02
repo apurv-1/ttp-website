@@ -23,29 +23,27 @@ const University = () => {
           The Host institue(SSIPMT, Raipur)
         </h3>
         <p className="word-align">
-          <b>
-            Shri Shankaracharya Institute of Professional Management &
-            Technology, Raipur
-          </b>{' '}
-          is overseen by Shri Gangajali Education Society ( SGES), Bhilai.
-          Established under arrangement of resolution 28, outlined under M.P.
-          Vishwavidyalaya Adhinium 1973 and AICTE act. affiliated to{' '}
-          <b>Chhattisgarh Swami Vivekanand TechnicaI University, Bhilai</b> fo
-          ste rs an understanding of technical and management education to
-          harvest skilled engineers and efficient managers for the society. The
-          global competitive market requires innovation, transformation and
-          application of bold methodologies, knowledge and determination to
-          challenge conventional practices. SSIPMT has worked round the clock to
-          achieve this aim in the newly-born state of Chhattisgarh. At the same
-          time, this institution draws its strength from our Indian culture. We
+          Shri Shankaracharya Institute of Professional Management & Technology,
+          Raipur is overseen by Shri Gangajali Education Society ( SGES),
+          Bhilai. Established under arrangement of resolution 28, outlined under
+          M.P. Vishwavidyalaya Adhinium 1973 and AICTE act. affiliated to
+          Chhattisgarh Swami Vivekanand Technical University Bhilai fosters an
+          understanding of technical and management education to harvest skilled
+          engineers and efficient managers for the society. The global
+          competitive market requires innovation, transformation and application
+          of bold methodologies, knowledge and determination to challenge
+          conventional practices. SSIPMT has worked round the clock to achieve
+          this aim in the newly-born state of Chhattisgarh. At the same time,
+          this institution draws its strength from our Indian culture. We
           transform raw minds into professionals through our focus on education,
           research and training practices to support the students gain knowledge
           to renovate and the power to succeed. SSIPMT campus has a conducive
           and supportive academic ambience facilitating high-quality education
           and research for more than 2000 students of bachelors, masters and
-          doctoral programs. Two of its undergraduate programs have been{' '}
-          <b>Accredited by NBA</b> and the institute itself has been{' '}
-          <b>Accredited by NAAC</b>.
+          doctoral programs. Two of its undergraduate programs have been
+          Accredited by <b>NBA</b> and the institute itself has been Accredited
+          by
+          <b>NAAC.</b>
         </p>
         <div className="text-center pt-3 pb-3" id="CSVTU">
           <img

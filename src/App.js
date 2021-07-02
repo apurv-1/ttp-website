@@ -69,7 +69,7 @@ function App() {
         <Fade>
           <Speakers />
           <Registrations />
-          <Schedule />
+          {/* <Schedule /> */}
           <College />
           <University />
           <Coordinators />

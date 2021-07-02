@@ -36,7 +36,7 @@ const Home = () => {
       </a>
 
       <h3 className="clg-div" id="tct">
-        AICTE-CSVTU MoU Teachers Training Programme-2021
+        AICTE-CSVTU MoU Joint Teachers Training Programme-2021
       </h3>
       <div className="uni-dev">
         Chhattisgarh Swami Vivekanand Technical University, Bhilai{' '}

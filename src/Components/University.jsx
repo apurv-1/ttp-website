@@ -2,12 +2,14 @@ import React from 'react';
 import classes from '../Styles/university.module.css';
 import ssipmt from '../assets/ssipmt-min.png';
 import csvtu from '../assets/csvtu-logo.png';
+import Heading from "../utils/Heading"
 
 const University = () => {
   return (
     <div className={classes.root} id="ssipmt_raipur">
       <div className="container pt-5">
-        <h1 className="text-center text-primary pb-4">About</h1>
+        {/* <h1 className="text-center text-primary pb-4">About</h1> */}
+        <Heading name="About" />
         <div className="text-center pt-3 pb-3">
           <img
             width="150"

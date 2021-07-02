@@ -1,11 +1,13 @@
 import React from 'react';
 import classes from '../Styles/topics.module.css';
+import Heading from '../utils/Heading';
 
 const Topics = () => {
   return (
     <div className={classes.root} id="Topics">
       <div className="container pt-5">
-        <h1 className="text-center text-primary pb-3">Topics</h1>
+        {/* <h1 className="text-center text-primary pb-3">Topics</h1> */}
+        <Heading name="Topics" />
         <h3 className="text-danger pb-2">Topics to be Covered</h3>
 
         <ul>

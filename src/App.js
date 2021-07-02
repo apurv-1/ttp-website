@@ -18,6 +18,7 @@ const University = lazy(() => import('./Components/University'));
 const Faculty = lazy(() => import('./Components/Faculty'));
 const Coordinators = lazy(() => import('./Components/Coordinators'));
 const Footer = lazy(() => import('./Components/Footer'));
+const Schedule = lazy(() => import('./Components/Schedule'));
 
 // import Home from "./Components/Home";
 // import Navigationbar from "./Components/Navbar";
@@ -29,6 +30,7 @@ const Footer = lazy(() => import('./Components/Footer'));
 // import University from "./Components/University";
 // import Coordinators from "./Components/Coordinators";
 // import Footer from "./Components/Footer";
+// import Schedule from "./Components/Schedule";
 
 function App() {
   return (
@@ -52,7 +54,8 @@ function App() {
               }}
             />
           </>
-        }>
+        }
+      >
         <Navigationbar />
         <Fade delay={400}>
           <Home />
@@ -66,6 +69,7 @@ function App() {
         <Fade>
           <Speakers />
           <Registrations />
+          <Schedule />
           <College />
           <University />
           <Coordinators />

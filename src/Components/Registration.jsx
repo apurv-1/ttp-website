@@ -1,5 +1,6 @@
 import React from 'react';
 // import classes from "../Styles/registration.module.css";
+import Heading from '../utils/Heading';
 
 const Registration = () => {
   const onSumbitHandle = (e) => {
@@ -12,9 +13,7 @@ const Registration = () => {
   return (
     <div className="container">
       <div className="pb-4">
-        <h1 className="text-center pb-4 text-primary" style={{ color: 'red' }}>
-          Certification
-        </h1>
+        <Heading name="Certification" />
         <h4 style={{ color: 'red' }}>
           Certificates will be issued subject to the participants qualifying the
           following conditions:
@@ -26,9 +25,7 @@ const Registration = () => {
         </p>
       </div>
       <div>
-        <h1 className="text-center pb-4 text-primary" id="Registration">
-          Registration
-        </h1>
+        <Heading name="Registration" />
         <div className="pb-3">
           <h3 className="text-danger pb-2">Who can participate ?</h3>
           <p>

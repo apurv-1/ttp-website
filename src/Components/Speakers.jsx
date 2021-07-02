@@ -7,13 +7,15 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/swiper-bundle.css';
 import SwiperCore, { EffectCoverflow, Autoplay, Pagination } from 'swiper';
+import Heading from '../utils/Heading';
 
 SwiperCore.use([EffectCoverflow, Pagination, Autoplay]);
 
 const Speakers = () => {
   return (
     <div className={classes.swiper_container} id="Speakers">
-      <h1 className="text-center text-primary pb-3">Speakers</h1>
+      {/* <h1 className="text-center text-primary pb-3">Speakers</h1> */}
+      <Heading name="Speakers" />
       <Swiper
         effect={'coverflow'}
         grabCursor={true}

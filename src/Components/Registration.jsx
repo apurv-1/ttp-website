@@ -15,8 +15,8 @@ const Registration = () => {
       <div className="pb-4">
         <Heading name="Certification" />
         <h4 style={{ color: 'red' }}>
-          Certificates will be issued subject to the participants qualifying the following
-          conditions:
+          Certificates will be issued subject to the participants qualifying the
+          following conditions:
         </h4>
         <p>
           a) Minimum 80% attendance.
@@ -29,9 +29,10 @@ const Registration = () => {
         <div className="pb-3">
           <h3 className="text-danger pb-2">Who can participate ?</h3>
           <p>
-            Faculty from AICTE approved institutions across the country of relevant disciplines.
-            Priority will be given to faculty from CSVTU affiliated institutions. Batch Size is
-            limited to maximum 100 participants.
+            Faculty from AICTE approved institutions across the country of
+            relevant disciplines. Priority will be given to faculty from CSVTU
+            affiliated institutions. Batch Size is limited to maximum 100
+            participants.
           </p>
         </div>
         <div className="pb-3">
@@ -46,7 +47,7 @@ const Registration = () => {
             Register here
           </button>
         </div>
-        <div className="text-center">
+        <div className="text-center pb-4">
           <h4 style={{ color: 'red' }}>Last date For Registration:</h4>
           <h5>22nd July 2021, Thursday</h5>
         </div>

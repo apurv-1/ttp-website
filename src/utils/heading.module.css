@@ -19,37 +19,37 @@
 .topRight {
   display: inline-block;
   position: absolute;
-  background: #faa;
+  background: #343a40;
   height: 3px;
   left: 53%;
   width: 70px;
   top: 22px;
   transform: translateX(80px);
 }
-.topLeft{
+.topLeft {
   display: inline-block;
   position: absolute;
-  background: #faa;
+  background: #343a40;
   height: 3px;
   left: 47%;
   width: 70px;
   top: 22px;
   transform: translateX(-150px);
 }
-.bottomLeft{
+.bottomLeft {
   display: inline-block;
   position: absolute;
-  background: #faa;
+  background: #343a40;
   height: 3px;
   left: 47%;
   width: 120px;
   top: 35px;
   transform: translateX(-200px);
 }
-.bottomRight{
+.bottomRight {
   display: inline-block;
   position: absolute;
-  background: #faa;
+  background: #343a40;
   height: 3px;
   left: 53%;
   width: 120px;

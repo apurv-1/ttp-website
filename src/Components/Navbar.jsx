@@ -4,6 +4,7 @@ import logo from '../assets/ssipmt-nav.png';
 import { Navbar, Nav } from 'react-bootstrap';
 import classes from '../Styles/navbar.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import samplePDF from '../assets/schedule.pdf';
 
 const Navigationbar = () => {
   const scroll = (id) => {
@@ -17,7 +18,13 @@ const Navigationbar = () => {
 
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
+      <Navbar
+        collapseOnSelect
+        expand="lg"
+        bg="dark"
+        variant="dark"
+        sticky="top"
+      >
         <Navbar.Brand href="#home">
           <img
             src={logo}
@@ -36,7 +43,8 @@ const Navigationbar = () => {
                   scroll('Home');
                 }}
                 className={classes.navlink}
-                href="#home">
+                href="#home"
+              >
                 Home
               </a>
             </Nav.Link>
@@ -47,7 +55,8 @@ const Navigationbar = () => {
                   scroll('programme');
                 }}
                 className={classes.navlink}
-                href="#programme">
+                href="#programme"
+              >
                 Programme
               </a>
             </Nav.Link>
@@ -57,7 +66,8 @@ const Navigationbar = () => {
                   scroll('Topics');
                 }}
                 className={classes.navlink}
-                href="#topics">
+                href="#topics"
+              >
                 Topics
               </a>
             </Nav.Link>
@@ -67,7 +77,8 @@ const Navigationbar = () => {
                   scroll('Speakers');
                 }}
                 className={classes.navlink}
-                href="#rpeakers">
+                href="#rpeakers"
+              >
                 Speakers
               </a>
             </Nav.Link>
@@ -77,9 +88,13 @@ const Navigationbar = () => {
                   scroll('Registration');
                 }}
                 className={classes.navlink}
-                href="#registration">
+                href="#registration"
+              >
                 Registration
               </a>
+            </Nav.Link>
+            <Nav.Link href={samplePDF} target="_blank">
+              <a className={classes.navlink}>Schedule</a>
             </Nav.Link>
             <Nav.Link>
               <a
@@ -87,7 +102,8 @@ const Navigationbar = () => {
                   scroll('ssipmt_raipur');
                 }}
                 className={classes.navlink}
-                href="#ssipmt_raipur">
+                href="#ssipmt_raipur"
+              >
                 SSIPMT RAIPUR
               </a>
             </Nav.Link>
@@ -97,7 +113,8 @@ const Navigationbar = () => {
                   scroll('CSVTU');
                 }}
                 className={classes.navlink}
-                href="#csvtu">
+                href="#csvtu"
+              >
                 CSVTU
               </a>
             </Nav.Link>
@@ -107,7 +124,8 @@ const Navigationbar = () => {
                   scroll('Coordinators');
                 }}
                 className={classes.navlink}
-                href="#coordinators">
+                href="#coordinators"
+              >
                 Coordinators
               </a>
             </Nav.Link>

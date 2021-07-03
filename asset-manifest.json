@@ -3,8 +3,8 @@
     "main.css": "/ttp-website/static/css/main.2dc6d11c.chunk.css",
     "main.js": "/ttp-website/static/js/main.75860410.chunk.js",
     "main.js.map": "/ttp-website/static/js/main.75860410.chunk.js.map",
-    "runtime-main.js": "/ttp-website/static/js/runtime-main.6077122e.js",
-    "runtime-main.js.map": "/ttp-website/static/js/runtime-main.6077122e.js.map",
+    "runtime-main.js": "/ttp-website/static/js/runtime-main.2941ebf6.js",
+    "runtime-main.js.map": "/ttp-website/static/js/runtime-main.2941ebf6.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/ttp-website/static/css/2.4c97ca4f.chunk.css",
     "static/js/2.dd7f4f67.chunk.js": "/ttp-website/static/js/2.dd7f4f67.chunk.js",
     "static/js/2.dd7f4f67.chunk.js.map": "/ttp-website/static/js/2.dd7f4f67.chunk.js.map",
@@ -29,8 +29,8 @@
     "static/js/9.99b37306.chunk.js": "/ttp-website/static/js/9.99b37306.chunk.js",
     "static/js/9.99b37306.chunk.js.map": "/ttp-website/static/js/9.99b37306.chunk.js.map",
     "static/css/10.6b86337e.chunk.css": "/ttp-website/static/css/10.6b86337e.chunk.css",
-    "static/js/10.146d441a.chunk.js": "/ttp-website/static/js/10.146d441a.chunk.js",
-    "static/js/10.146d441a.chunk.js.map": "/ttp-website/static/js/10.146d441a.chunk.js.map",
+    "static/js/10.527bd226.chunk.js": "/ttp-website/static/js/10.527bd226.chunk.js",
+    "static/js/10.527bd226.chunk.js.map": "/ttp-website/static/js/10.527bd226.chunk.js.map",
     "static/css/11.36336793.chunk.css": "/ttp-website/static/css/11.36336793.chunk.css",
     "static/js/11.b7a74fc9.chunk.js": "/ttp-website/static/js/11.b7a74fc9.chunk.js",
     "static/js/11.b7a74fc9.chunk.js.map": "/ttp-website/static/js/11.b7a74fc9.chunk.js.map",
@@ -68,7 +68,7 @@
     "static/media/ssipmt-nav.0d1af8fc.png": "/ttp-website/static/media/ssipmt-nav.0d1af8fc.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.6077122e.js",
+    "static/js/runtime-main.2941ebf6.js",
     "static/js/3.8cd1254a.chunk.js",
     "static/css/main.2dc6d11c.chunk.css",
     "static/js/main.75860410.chunk.js"

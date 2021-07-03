@@ -18,7 +18,7 @@ const University = lazy(() => import('./Components/University'));
 const Faculty = lazy(() => import('./Components/Faculty'));
 const Coordinators = lazy(() => import('./Components/Coordinators'));
 const Footer = lazy(() => import('./Components/Footer'));
-const Schedule = lazy(() => import('./Components/Schedule'));
+// const Schedule = lazy(() => import('./Components/Schedule'));
 
 // import Home from "./Components/Home";
 // import Navigationbar from "./Components/Navbar";

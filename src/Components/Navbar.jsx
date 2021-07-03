@@ -77,7 +77,7 @@ const Navigationbar = () => {
                   scroll('Speakers');
                 }}
                 className={classes.navlink}
-                href="#rpeakers"
+                href="#speakers"
               >
                 Speakers
               </a>
@@ -94,7 +94,7 @@ const Navigationbar = () => {
               </a>
             </Nav.Link>
             <Nav.Link href={samplePDF} target="_blank">
-              <a className={classes.navlink}>Schedule</a>
+              <a href className={classes.navlink}>Schedule</a>
             </Nav.Link>
             <Nav.Link>
               <a

@@ -45,32 +45,15 @@ const Programme = () => {
             Understand
           </p>
           <ul className={classes.list}>
+            <li>Importance of NEP 2020 and NIRF</li>
+            <li>The implementation of OBE in NBA</li>
+            <li>Outcome Based curriculum and its significance.</li>
+            <li>Curriculum gap and its identification</li>
+            <li>CO – PO mapping and computation</li>
             <li>
-              Issues in Traditional Education System and How New Education
-              Policy Will Change the Education System.
+              Teaching Learning Process and Innovation Ecosystem Strategies with
+              Acadmeic R&D
             </li>
-            <li>NIRF Ranking System</li>
-            <li>NEP-2020: Way Ahead</li>
-            <li>World Education System and NEP</li>
-            <li>Implementation of NEP 2020</li>
-            <li>Philosophy of OBE, Blooms Taxonomy and Teaching Pedagogy</li>
-            <li>Concept of Outcome-Based Education System and OBE Framework</li>
-            <li>
-              Developing Course Outcomes of a Subject and Innovative Techniques
-              in Teaching
-            </li>
-            <li>Design and Process of POs, PSOs and SWOT Analysis</li>
-            <li>CO – PO Mapping and Computation </li>
-            <li>
-              Student Centric Teaching-Learning Process and Use of ICT Tools
-            </li>
-            <li>
-              Student Centric Teaching-Learning Process and Use of ICT Tools
-            </li>
-            <li>Digital Education During Covid-19 Situation</li>
-            <li>Introduction to MOOC and Moodle</li>
-            <li>Need and Importance of Accreditation and Process of NBA </li>
-            <li>Industry 4.0 oriented Curriculum Development</li>
           </ul>
         </div>
       </div>

@@ -1,22 +1,26 @@
 [
     {
-        "name": "Dr. J P Patra",
-        "designation": "Professor & Head"
-    },
-    {
         "name": "Mr. Riju Bhattacharya",
-        "designation": "Assistant Professor"
+        "designation": "Associate Professor"
     },
     {
-        "name": "Mr. Anand Tamrakar",
-        "designation": "Assistant Professor"
+        "name": "Dr. Seema Arora",
+        "designation": "Associate Professor"
+    },
+    {
+        "name": "Dr. Ritu Benjamin",
+        "designation": "Associate Professor"
+    },
+    {
+        "name": "Dr. Gurpreet Singh Chhabra",
+        "designation": "Associate Professor"
     },
     {
         "name": "Mrs. Preeti Tuli",
         "designation": "Assistant Professor"
     },
     {
-        "name": "Dr. Gurpreet Singh Chhabra",
+        "name": "Mr. Yogesh Rathore",
         "designation": "Assistant Professor"
     },
     {
@@ -24,15 +28,19 @@
         "designation": "Assistant Professor"
     },
     {
-        "name": "Mr. Ashish Trivedi",
-        "designation": "Assistant Professor"
-    },
-    {
         "name": "Mrs. Sumitra Samal",
         "designation": "Assistant Professor"
     },
     {
+        "name": "Mr. Deepak Rao Khadatkar",
+        "designation": "Assistant Professor"
+    },
+    {
         "name": "Mr. Teshu Gaurav Singh",
+        "designation": "Assistant Professor"
+    },
+    {
+        "name": "Mr. Santanu  Mukherjee",
         "designation": "Assistant Professor"
     },
     {
@@ -44,15 +52,24 @@
         "designation": "Assistant Professor"
     },
     {
-        "name": "Mr. Deepak Rao Khadatkar",
+        "name": "Mr. Mahendra Sahu",
         "designation": "Assistant Professor"
     },
     {
-        "name": "Mrs. Upasana  Mishra",
+        "name": "Mr. Abhishek Saw",
         "designation": "Assistant Professor"
     },
     {
-        "name": "Mr. Santanu  Mukherjee",
+        "name": "Mr. Ashish Pandey",
+        "designation": "Assistant Professor"
+    },
+    {
+        "name": "Mrs. Shradhha Taunk",
+        "designation": "Assistant Professor"
+    },  
+    {
+        "name": "Mr. Prakash Sahu",
         "designation": "Assistant Professor"
     }
+    
 ]

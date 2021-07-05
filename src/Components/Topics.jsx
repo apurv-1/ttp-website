@@ -12,48 +12,31 @@ const Topics = () => {
 
         <ul>
           <li>
-            <h5>
-              Issues in Traditional Education System and how will New Education
-              Policy change the education system
-            </h5>
+            Issues in Traditional Education System and How New Education Policy
+            Will Change the Education System.
+          </li>
+          <li>NIRF Ranking System</li>
+          <li>NEP-2020: Way Ahead</li>
+          <li>World Education System and NEP</li>
+          <li>Implementation of NEP 2020</li>
+          <li>Philosophy of OBE, Blooms Taxonomy and Teaching Pedagogy</li>
+          <li>Concept of Outcome-Based Education System and OBE Framework</li>
+          <li>
+            Developing Course Outcomes of a Subject and Innovative Techniques in
+            Teaching
+          </li>
+          <li>Design and Process of POs, PSOs and SWOT Analysis</li>
+          <li>CO – PO Mapping and Computation </li>
+          <li>
+            Student Centric Teaching-Learning Process and Use of ICT Tools
           </li>
           <li>
-            <h5>Concept of Outcome Based Education System and OBE Framework</h5>
+            Student Centric Teaching-Learning Process and Use of ICT Tools
           </li>
-          <li>
-            <h5>Outcome Based curriculum and its significance.</h5>
-          </li>
-          <li>
-            <h5>
-              Need and importance of Accreditation and Process of NBA
-              Accreditation, Vision, Mission and PEOs
-            </h5>
-          </li>
-          <li>
-            <h5>Design and Process of PSOs and POs and SWOT Analysis.</h5>
-          </li>
-          <li>
-            <h5>
-              Identification of Curriculum gap and Content Beyond Syllabus.
-            </h5>
-          </li>
-          <li>
-            <h5>Philosophy of OBE, Blooms Taxonomy and teaching pedagogy</h5>
-          </li>
-          <li>
-            <h5>
-              CO – PO mapping and computation, Experience sharing through paper
-              and case study on CO-PO mapping and computation.
-            </h5>
-          </li>
-          <li>
-            <h5>
-              Student Centric Teaching Learning Process and Use of ICT Tools
-            </h5>
-          </li>
-          <li>
-            <h5>Digital Education during Covid-19 situation</h5>
-          </li>
+          <li>Digital Education During Covid-19 Situation</li>
+          <li>Introduction to MOOC and Moodle</li>
+          <li>Need and Importance of Accreditation and Process of NBA </li>
+          <li>Industry 4.0 oriented Curriculum Development</li>
         </ul>
       </div>
     </div>

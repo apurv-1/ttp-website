@@ -5,6 +5,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 import classes from '../Styles/navbar.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import samplePDF from '../assets/schedule.pdf';
+import brochure from '../assets/brocher.pdf';
 
 const Navigationbar = () => {
   const scroll = (id) => {
@@ -94,7 +95,14 @@ const Navigationbar = () => {
               </a>
             </Nav.Link>
             <Nav.Link href={samplePDF} target="_blank">
-              <a href className={classes.navlink}>Schedule</a>
+              <a href className={classes.navlink}>
+                Schedule
+              </a>
+            </Nav.Link>
+            <Nav.Link href={brochure} target="_blank">
+              <a href className={classes.navlink}>
+                Brochure
+              </a>
             </Nav.Link>
             <Nav.Link>
               <a

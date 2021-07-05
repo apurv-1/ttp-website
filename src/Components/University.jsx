@@ -20,7 +20,7 @@ const University = () => {
           />
         </div>
         <h3 className="text-center pb-3" style={{ color: 'blue' }}>
-          The Host institue(SSIPMT, Raipur)
+          The Host institue<span className="brackets">(</span>SSIPMT, Raipur<span className="brackets">)</span>
         </h3>
         <p className="word-align">
           Shri Shankaracharya Institute of Professional Management & Technology,
@@ -55,7 +55,7 @@ const University = () => {
           />
         </div>
         <h3 className="text-center pb-3" style={{ color: 'blue' }}>
-          The Host University(CSVTU)
+          The Host University<span className="brackets">(</span>CSVTU<span className="brackets">)</span>
         </h3>
 
         <p className="word-align">

@@ -9,16 +9,16 @@ const Programme = () => {
     <div>
       <div className="text-center pt-3">
         <h3 style={{ color: 'blue' }}>
-          One Week Joint Teachers Training Programme (TTP-2021)
+          One Week Joint Teachers Training Programme <span className="brackets">(</span>TTP-2021<span className="brackets">)</span>
         </h3>
-        <h3 style={{ color: 'red' }}>(Online Mode)</h3>
+        <h3 style={{ color: 'red' }}><span className="brackets">(</span>Online Mode<span className="brackets">)</span></h3>
         <h4 style={{ color: 'black' }}>on</h4>
         <h3 style={{ color: 'red' }}>
-          "The Importance of Outcome Based Education (OBE) in New Education
+          "The Importance of Outcome Based Education <span className="brackets">(</span>OBE<span className="brackets"><span className="brackets">)</span></span> in New Education
           Policy"
         </h3>
         <h4 style={{ color: 'blue' }}>
-          Date: 26th July(MON) - 31st July(SAT) 2021
+          Date: 26th July<span className="brackets">(</span>MON<span className="brackets">)<span className="brackets"></span></span> - 31st July<span className="brackets">(</span>SAT<span className="brackets">)</span> 2021
         </h4>
         <hr style={{ width: '80%' }} />
         <a href="https://www.ssipmt.com/" rel="noreferrer" target="_blank">

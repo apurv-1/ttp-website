@@ -36,3 +36,13 @@ a{
   top: 40px;
   opacity: 1;
 }
+@media only screen and (max-width: 1024px) {
+  .navlink {
+    font-size: small;
+  }
+  .navlink:hover::before {
+    /* bottom: 40px; */
+    top: 25px;
+    opacity: 1;
+  }
+}

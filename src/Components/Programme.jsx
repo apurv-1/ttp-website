@@ -32,7 +32,7 @@ const Programme = () => {
         <div>
           <h3 className="text-danger pb-3">Objective</h3>
           <p className="word-align">
-            The objective of the proposed FDP is to Familiarize the faculties
+            The objective of the proposed TTP is to Familiarize the faculties
             with the concept of outcome-based education with more focus on
             adaption and implementation. To bring out the advantage of OBE over
             conventional education and focus on higher-order learning and
@@ -41,7 +41,7 @@ const Programme = () => {
           </p>
           <h3 className="text-danger pb-3">Outcome</h3>
           <p>
-            After the completion of the FDP the participants would be able to
+            After the completion of the TTP the participants would be able to
             Understand
           </p>
           <ul className={classes.list}>

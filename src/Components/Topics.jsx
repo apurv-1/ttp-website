@@ -38,7 +38,11 @@ const Topics = () => {
           <li>Need and Importance of Accreditation and Process of NBA </li>
           <li>Industry 4.0 oriented Curriculum Development</li>
         </ul>
+        <span id="Speakers">
+        <Heading name="Speakers" />
+        </span>
       </div>
+      
     </div>
   );
 };

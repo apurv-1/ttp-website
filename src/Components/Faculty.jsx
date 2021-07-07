@@ -5,7 +5,7 @@ import details from '../Information/names.json';
 const Faculty = () => {
   return (
     <div className={classes.root}>
-      <h2 className="text-primary pb-3">Co-ordinating Committee <span className="brackets">(</span>SSIPMT Raipur<span className="brackets">)</span></h2>
+      <h3 className="text-primary pb-3">Co-ordinating Committee <span className="brackets">(</span>SSIPMT Raipur<span className="brackets">)</span></h3>
       <table>
         <thead>
           <tr>

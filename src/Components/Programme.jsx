@@ -27,7 +27,6 @@ const Programme = () => {
         <hr style={{ width: '80%' }} />
       </div>
       <div className="container pt-5" id="programme">
-        {/* <h1 className="text-center text-primary pb-4">Programme</h1> */}
         <Heading name="Programme" />
         <div>
           <h3 className="text-danger pb-3">Objective</h3>

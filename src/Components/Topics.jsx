@@ -7,9 +7,9 @@ const Topics = () => {
     <div className={classes.root} id="Topics">
       <div className="container pt-5">
         {/* <h1 className="text-center text-primary pb-3">Topics</h1> */}
-        <Heading name="Topics" />
-        <h3 className="text-danger pb-2">Topics to be Covered</h3>
-        <h4 className="text-center">National Education Policy (NEP)</h4>
+        <Heading name="Topics to be Covered" />
+
+        <h4 className="text-danger p-3">National Education Policy (NEP)</h4>
         <ul>
           <li>Reforms in the Education System through New Education Policy</li>
           <li>
@@ -22,7 +22,7 @@ const Topics = () => {
           </li>
           <li>Industry4.0- Centric Curriculum Development</li>
         </ul>
-        <h4 className="text-center">Outcome Based Education (OBE)</h4>
+        <h4 className="text-danger p-3">Outcome Based Education (OBE)</h4>
         <ul>
           <li>
             Need and Implementation of National Institutional Ranking Framework
@@ -34,7 +34,7 @@ const Topics = () => {
           <li>CO-PO Attainment in OBE</li>
           <li>Need and Importance of NBA Accreditation for HEIs</li>
         </ul>
-        <h4 className="text-center">
+        <h4 className="text-danger p-3">
           Information and Communication Technology (ICT)
         </h4>
         <ul>
@@ -45,10 +45,9 @@ const Topics = () => {
           <li>Digital Education During Covid-19</li>
         </ul>
         <span id="Speakers">
-        <Heading name="Speakers" />
+          <Heading name="Speakers" />
         </span>
       </div>
-      
     </div>
   );
 };

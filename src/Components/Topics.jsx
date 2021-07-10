@@ -6,7 +6,6 @@ const Topics = () => {
   return (
     <div className={classes.root} id="Topics">
       <div className="container pt-5">
-        {/* <h1 className="text-center text-primary pb-3">Topics</h1> */}
         <Heading name="Topics to be Covered" />
 
         <h4 className="text-danger p-3">National Education Policy (NEP)</h4>

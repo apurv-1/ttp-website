@@ -45,14 +45,22 @@ const Programme = () => {
             Understand
           </p>
           <ul className={classes.list}>
-            <li>Importance of NEP 2020 and NIRF</li>
-            <li>The implementation of OBE in NBA</li>
-            <li>Outcome Based curriculum and its significance.</li>
-            <li>Curriculum gap and its identification</li>
-            <li>CO – PO mapping and computation</li>
             <li>
-              Teaching Learning Process and Innovation Ecosystem Strategies with
-              Acadmeic R&D
+              Understand the Importance of National Education Policy 2020.
+            </li>
+            <li>
+              Understand the advantage of Outcome Based Education over
+              conventional education
+            </li>
+            <li>
+              Identify the curriculum gap and take steps to minimize the same.
+            </li>
+            <li>
+              Design and Implement Outcome Based Curriculum in line with
+              NEP-2020.
+            </li>
+            <li>
+              Introduce Innovative Teaching-Learning Strategies and Processes
             </li>
           </ul>
         </div>

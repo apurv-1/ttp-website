@@ -67,7 +67,7 @@ const Coordinators = () => {
             Mobile No: 9993090232 <span className="brackets">(</span>Whatsapp
             <span className="brackets">)</span>
           </h5>
-          <h5>Email: a.tamrakar@ssipmt.com</h5>
+          <h5>Email: ttp2021@ssipmt.com</h5>
         </div>
       </div>
     </div>

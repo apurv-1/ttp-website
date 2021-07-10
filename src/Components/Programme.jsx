@@ -8,20 +8,20 @@ const Programme = () => {
   return (
     <div>
       <div className="text-center pt-3">
-        <h3 style={{ color: 'blue' }}>
+        <h3 style={{ color: '#00308F' }}>
           One Week Joint Teachers Training Programme{' '}
           <span className="brackets">(</span>TTP-2021
           <span className="brackets">)</span>
         </h3>
-        <h3 style={{ color: 'red' }}>
+        <h3 style={{ color: '#DC3545' }}>
           <span className="brackets">(</span>Online Mode
           <span className="brackets">)</span>
         </h3>
         <h4 style={{ color: 'black' }}>on</h4>
-        <h3 style={{ color: 'red' }}>
+        <h3 style={{ color: '#DC3545' }}>
           The Importance of Outcome Based Education in New Education Policy
         </h3>
-        <h4 style={{ color: 'blue' }}>Date: 26th July - 31st July 2021</h4>
+        <h4 style={{ color: '#00308F' }}>Date: 26th July - 31st July 2021</h4>
         <hr style={{ width: '80%' }} />
 
         <h1 className="text-center pt-2">Host Institution</h1>
@@ -48,8 +48,7 @@ const Programme = () => {
           </p>
           <h3 className="text-danger pb-3">Outcomes</h3>
           <p>
-            After the completion of the TTP the participants would be able to
-            Understand
+          After the completion of the Teachers Training Program (TTP), the participants would be able to:
           </p>
           <ul className={classes.list}>
             <li>

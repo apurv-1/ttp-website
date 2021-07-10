@@ -55,7 +55,7 @@ const University = () => {
         </h3> */}
         <br />
         <h3 className="text-danger pb-3">
-          The Host University<span className="brackets">(</span>CSVTU
+          The Host University<span className="brackets"> (</span>CSVTU
           <span className="brackets">)</span>
         </h3>
         <p className="word-align">
@@ -91,7 +91,7 @@ const University = () => {
         </h3> */}
         <br />
         <h3 className="text-danger pb-3">
-          The Host institue<span className="brackets">(</span>SSIPMT, Raipur
+          The Host Institue<span className="brackets"> (</span>SSIPMT, Raipur
           <span className="brackets">)</span>
         </h3>
 

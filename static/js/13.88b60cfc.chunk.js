@@ -1,2 +1,0 @@
-(this.webpackJsonpttp_website=this.webpackJsonpttp_website||[]).push([[13],{67:function(e,t,s){e.exports={root:"footer_root__Pmehb",head:"footer_head__1_JD9"}},82:function(e,t,s){"use strict";s.r(t);s(0);var a=s(67),o=s.n(a),c=s(1);t.default=function(){return Object(c.jsxs)("div",{className:o.a.root,children:[Object(c.jsx)("h6",{className:o.a.head,children:"\xa9 COPYRIGHT 2021, SSIPMT RAIPUR"}),Object(c.jsx)("h6",{className:o.a.head,children:" ALL RIGHTS RESERVED"})]})}}}]);
-//# sourceMappingURL=13.88b60cfc.chunk.js.map

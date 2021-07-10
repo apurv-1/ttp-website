@@ -1,2 +1,0 @@
-(this.webpackJsonpttp_website=this.webpackJsonpttp_website||[]).push([[12],{63:function(t,s,e){},79:function(t,s,e){"use strict";e.r(s);e(0);var n=e(63),i=e.n(n),c=e(1);s.default=function(){return Object(c.jsx)("div",{className:i.a.root})}}}]);
-//# sourceMappingURL=12.70c783b7.chunk.js.map

@@ -4,8 +4,8 @@ import logo from '../assets/ssipmt-nav.png';
 import { Navbar, Nav } from 'react-bootstrap';
 import classes from '../Styles/navbar.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import samplePDF from '../assets/schedule.pdf';
-import brochure from '../assets/brocher.pdf';
+import samplePDF from '../assets/updatedSchedule.pdf';
+import brochure from '../assets/updatedBrochure.pdf';
 
 const Navigationbar = () => {
   const scroll = (id) => {

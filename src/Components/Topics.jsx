@@ -9,34 +9,40 @@ const Topics = () => {
         {/* <h1 className="text-center text-primary pb-3">Topics</h1> */}
         <Heading name="Topics" />
         <h3 className="text-danger pb-2">Topics to be Covered</h3>
-
+        <h4 className="text-center">National Education Policy (NEP)</h4>
+        <ul>
+          <li>Reforms in the Education System through New Education Policy</li>
+          <li>
+            National Education Policy – Importance in Global Education System
+          </li>
+          <li>National Education Policy (NEP)-2020: A Way Ahead</li>
+          <li>NISP-2019 in the Context of NEP-2020</li>
+          <li>
+            Restructuring Curriculum Framework for Higher Education in NEP 2020
+          </li>
+          <li>Industry4.0- Centric Curriculum Development</li>
+        </ul>
+        <h4 className="text-center">Outcome Based Education (OBE)</h4>
         <ul>
           <li>
-            Issues in Traditional Education System and How New Education Policy
-            Will Change the Education System.
+            Need and Implementation of National Institutional Ranking Framework
           </li>
-          <li>NIRF Ranking System</li>
-          <li>NEP-2020: Way Ahead</li>
-          <li>World Education System and NEP</li>
-          <li>Implementation of NEP 2020</li>
-          <li>Philosophy of OBE, Blooms Taxonomy and Teaching Pedagogy</li>
-          <li>Concept of Outcome-Based Education System and OBE Framework</li>
-          <li>
-            Developing Course Outcomes of a Subject and Innovative Techniques in
-            Teaching
-          </li>
-          <li>Design and Process of POs, PSOs and SWOT Analysis</li>
-          <li>CO – PO Mapping and Computation </li>
-          <li>
-            Student Centric Teaching-Learning Process and Use of ICT Tools
-          </li>
-          <li>
-            Student Centric Teaching-Learning Process and Use of ICT Tools
-          </li>
-          <li>Digital Education During Covid-19 Situation</li>
+          <li>Applying Bloom’s Taxonomy in Teaching Pedagogy</li>
+          <li>The Significance of Outcome Based Education and Framework</li>
+          <li>Understanding the POs for the designing of PSOs and PEOs</li>
+          <li>Process involved in Developing the Course Outcomes</li>
+          <li>CO-PO Attainment in OBE</li>
+          <li>Need and Importance of NBA Accreditation for HEIs</li>
+        </ul>
+        <h4 className="text-center">
+          Information and Communication Technology (ICT)
+        </h4>
+        <ul>
           <li>Introduction to MOOC and Moodle</li>
-          <li>Need and Importance of Accreditation and Process of NBA </li>
-          <li>Industry 4.0 oriented Curriculum Development</li>
+          <li>
+            Student-Centric Teaching-Learning Process and the Use of ICT Tools
+          </li>
+          <li>Digital Education During Covid-19</li>
         </ul>
         <span id="Speakers">
         <Heading name="Speakers" />

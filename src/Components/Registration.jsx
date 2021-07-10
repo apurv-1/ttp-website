@@ -12,7 +12,7 @@ const Registration = () => {
 
   return (
     <div className="container">
-      <div className="pb-4">
+      <div className="pb-4" id="Registration" >
         <Heading name="Certification" />
         <h4 style={{ color: 'red' }}>
           Certificates will be issued subject to the participants qualifying the

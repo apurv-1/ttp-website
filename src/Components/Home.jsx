@@ -41,7 +41,7 @@ const Home = () => {
       <div className="uni-dev">
         Chhattisgarh Swami Vivekanand Technical University, Bhilai{' '}
       </div>
-      <h4 style={{ color: 'black' }}>(State Government Owned Organization)</h4>
+      <h4 style={{ color: 'black' }}><span className="brackets">(</span>State Government Owned Organization<span className="brackets">)</span></h4>
       <hr />
     </div>
   );

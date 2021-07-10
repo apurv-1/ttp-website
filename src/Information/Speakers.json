@@ -45,43 +45,43 @@
     "name": "Prof (Dr.) K P Yadav",
     "designation": "VC",
     "institute_name": "Sangam University, Bhilwara, Rajasthan",
-    "profile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa9UI1y4Shr253ibETjPCOWNBWWpKgQsVKaw&usqp=CAU"
+    "profile": "https://res.cloudinary.com/vlk/image/upload/v1625492514/ttp-website/KP_Yadav_r82jmd.jpg"
   },
   {
     "name": "Col. B. Venkat",
     "designation": "Director AICTE New Delhi",
     "institute_name": "",
-    "profile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa9UI1y4Shr253ibETjPCOWNBWWpKgQsVKaw&usqp=CAU"
+    "profile": "https://res.cloudinary.com/vlk/image/upload/v1625492534/ttp-website/Dr._Co._B.Venkat_fudbz1.png"
   },
   {
     "name": "Dr. Anil Vashisht",
     "designation": "Dy. Pro Vice Chancellor Director",
     "institute_name": "Amity Business School Amity University, M.P.",
-    "profile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa9UI1y4Shr253ibETjPCOWNBWWpKgQsVKaw&usqp=CAU"
+    "profile": "https://res.cloudinary.com/vlk/image/upload/v1625492683/ttp-website/DR._Anil_Vashisht_xprpsl.jpg"
   },
   {
     "name": "Dr. Meenakshi Sood",
     "designation": "Associate Professor",
     "institute_name": "NITTTR, Chandigarh",
-    "profile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa9UI1y4Shr253ibETjPCOWNBWWpKgQsVKaw&usqp=CAU"
+    "profile": "https://res.cloudinary.com/vlk/image/upload/v1625492532/ttp-website/DR._Meenakshi_Sood_acdjue.jpg"
   },
   {
     "name": "Dr. Vibha Wali",
     "designation": "Associate Professor",
     "institute_name": "VIT, Mumbai",
-    "profile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa9UI1y4Shr253ibETjPCOWNBWWpKgQsVKaw&usqp=CAU"
+    "profile": "https://res.cloudinary.com/vlk/image/upload/v1625492530/ttp-website/Dr._Vibha_Mali_w1zt5l.png"
   },
   {
     "name": "Dr. Saurabh N. Mehta",
     "designation": "Chief Academic Officer",
     "institute_name": "VIT, Mumbai",
-    "profile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa9UI1y4Shr253ibETjPCOWNBWWpKgQsVKaw&usqp=CAU"
+    "profile": "https://res.cloudinary.com/vlk/image/upload/v1625492531/ttp-website/Dr._Saurabh_Mehta_f0hoa2.jpg"
   },
   {
     "name": "Prof. Ashwin Kothari",
     "designation": "Dean",
     "institute_name": "IIIT, Nagpur",
-    "profile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa9UI1y4Shr253ibETjPCOWNBWWpKgQsVKaw&usqp=CAU"
+    "profile": "https://res.cloudinary.com/vlk/image/upload/v1625492683/ttp-website/Dr._Aswin_Kothari_klsips.jpg"
   },
   {
     "name": "Dr. R. N. Patel",
@@ -112,6 +112,18 @@
     "designation": "Principal",
     "institute_name": "VEC Lakhanpur",
     "profile": "https://res.cloudinary.com/vlk/image/upload/v1625136957/ttp-website/4_rqocxp.jpg"
+  },
+  {
+    "name": "Dr. Alok Kumar Jain",
+    "designation": "Principal",
+    "institute_name": "SSIPMT Raipur",
+    "profile": "https://res.cloudinary.com/vlk/image/upload/v1625492682/ttp-website/Dr._Alok_Jain_qfperf.jpg"
+  },
+  {
+    "name": "Mr. Nishant Tripathi",
+    "designation": "Chairman",
+    "institute_name": "SSIPMT Raipur",
+    "profile": "https://res.cloudinary.com/vlk/image/upload/v1625492494/ttp-website/NIshant_TRipathi_Sir2_rynl2t.jpg"
   }
 
 ]

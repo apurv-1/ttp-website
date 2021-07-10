@@ -5,7 +5,7 @@ import details from '../Information/names.json';
 const Faculty = () => {
   return (
     <div className={classes.root}>
-      <h2 className="text-primary pb-3">Co-ordinating Committee (SSIPMT Raipur)</h2>
+      <h3 className="text-primary pb-3">Co-ordinating Committee <span className="brackets">(</span>SSIPMT Raipur<span className="brackets">)</span></h3>
       <table>
         <thead>
           <tr>
@@ -17,7 +17,7 @@ const Faculty = () => {
         <tbody>
           {details.map(({ name, designation }, index) => (
             <tr key={index}>
-              <td>{index +1}</td>
+              <td>{index + 1}</td>
               <td>{name}</td>
               <td className={classes.center}>{designation}</td>
             </tr>

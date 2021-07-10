@@ -44,7 +44,11 @@ const Topics = () => {
           </li>
           <li>Digital Education During Covid-19</li>
         </ul>
+        <span id="Speakers">
+        <Heading name="Speakers" />
+        </span>
       </div>
+      
     </div>
   );
 };

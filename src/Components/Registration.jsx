@@ -12,7 +12,7 @@ const Registration = () => {
 
   return (
     <div className="container">
-      <div className="pb-4" id="Registration" >
+      <div className="pb-4" id="Registration">
         <Heading name="Certification" />
         <h4 style={{ color: 'red' }}>
           Certificates will be issued subject to the participants qualifying the
@@ -37,7 +37,10 @@ const Registration = () => {
         </div>
         <div className="pb-3">
           <h3 className="text-danger pb-2">Eligible Disciplines:</h3>
-          <p>All branches of Engineering, MBA, MCA and Polytechnic.</p>
+          <p>
+            The course will be open to all branches of Engineering, Management,
+            Computer Application and Polytechnic.
+          </p>
         </div>
         <p className="text-center" style={{ color: 'red' }}>
           (No Registration Fees & Participation on First Come First Serve)

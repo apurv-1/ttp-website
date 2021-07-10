@@ -27,11 +27,10 @@ const Registration = () => {
       <div>
         <Heading name="Registration" />
         <div className="pb-3">
-          <h3 className="text-danger pb-2">Who can participate ?</h3>
+          <h3 className="text-danger pb-2">Who can participate</h3>
           <p>
             Faculty from AICTE approved institutions across the country of
-            relevant disciplines. Priority will be given to faculty from CSVTU
-            affiliated institutions. Batch Size is limited to maximum 100
+            relevant disciplines. Batch Size is limited to maximum 100
             participants.
           </p>
         </div>
@@ -43,7 +42,7 @@ const Registration = () => {
           </p>
         </div>
         <p className="text-center" style={{ color: 'red' }}>
-          (No Registration Fees & Participation on First Come First Serve)
+          (No Registration Fees & Participation on First Come First Serve Basis)
         </p>
         <div className="col-md-12 text-center pb-3">
           <button className="btn btn-dark" onClick={(e) => onSumbitHandle(e)}>

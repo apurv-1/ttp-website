@@ -13,8 +13,7 @@ const Programme = lazy(() => import('./Components/Programme'));
 const Topics = lazy(() => import('./Components/Topics'));
 const Speakers = lazy(() => import('./Components/Speakers'));
 const Registrations = lazy(() => import('./Components/Registration'));
-const College = lazy(() => import('./Components/College'));
-const University = lazy(() => import('./Components/University'));
+const About = lazy(() => import('./Components/About'));
 const Faculty = lazy(() => import('./Components/Faculty'));
 const Coordinators = lazy(() => import('./Components/Coordinators'));
 const Footer = lazy(() => import('./Components/Footer'));
@@ -70,8 +69,8 @@ function App() {
           <Speakers />
           <Registrations />
           {/* <Schedule /> */}
-          <College />
-          <University />
+          {/* <College /> */}
+          <About />
           <Coordinators />
           <Faculty />
         </Fade>

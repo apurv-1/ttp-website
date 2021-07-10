@@ -107,15 +107,15 @@ const Navigationbar = () => {
             <Nav.Link>
               <a
                 onClick={() => {
-                  scroll('ssipmt_raipur');
+                  scroll('about');
                 }}
                 className={classes.navlink}
-                href="#ssipmt_raipur"
+                href="#about"
               >
-                SSIPMT RAIPUR
+                About
               </a>
             </Nav.Link>
-            <Nav.Link>
+            {/* <Nav.Link>
               <a
                 onClick={() => {
                   scroll('CSVTU');
@@ -125,7 +125,7 @@ const Navigationbar = () => {
               >
                 CSVTU
               </a>
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link>
               <a
                 onClick={() => {

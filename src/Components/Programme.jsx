@@ -46,7 +46,7 @@ const Programme = () => {
             education. It aims to increase Gross Enrolment Ratio in higher
             education, promote multilingualism and build the capacity of faculty
           </p>
-          <h3 className="text-danger pb-3">Outcome</h3>
+          <h3 className="text-danger pb-3">Outcomes</h3>
           <p>
             After the completion of the TTP the participants would be able to
             Understand

@@ -21,7 +21,7 @@ const Programme = () => {
         <h3 style={{ color: '#DC3545' }}>
           The Importance of Outcome Based Education in New Education Policy
         </h3>
-        <h4 style={{ color: '#00308F' }}>26th July - 31st July 2021</h4>
+        <h4 style={{ color: '#00308F' }}>25th July - 31st July 2021</h4>
         <hr style={{ width: '80%' }} />
 
         <h1 className="text-center pt-2">Host Institution</h1>
